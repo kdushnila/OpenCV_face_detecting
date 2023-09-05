@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Read an image from a file
-image = cv2.imread('faces/sea.jpg')
+image = cv2.imread('faces/man.jpg')
 cv2.imshow('original', image)
 
 # Convert the image to grayscale
